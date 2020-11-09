@@ -1,0 +1,23 @@
+{
+  "name": "toy-robot-simulator",
+  "version": "1.0.0",
+  "description": "NodeJS command line application of a toy-robot-simulator for Rea",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "mocha ./*/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "author": "Amit Bhandari",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "figlet": "^1.5.0",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "expect": "^26.6.2",
+    "mocha": "^8.2.1"
+  }
+}
